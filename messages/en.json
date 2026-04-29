@@ -1,6 +1,6 @@
 {
   "Header": {
-    "name": "Mr. Bandar Fayez Saeed Hassanin",
+    "name": "Bandar Fayez Saeed Hassanin",
     "title": "Hajj, Umrah & Tourism Hospitality Services Management"
   },
   "Navigation": {
@@ -10,8 +10,8 @@
     "contact": "Contact"
   },
   "Profile": {
-    "sectionTitle": "About Me",
-    "summary": "An experienced expert and leader in the management of Hajj, Umrah, and tourism hospitality services, and an early retiree from the Saudi Electricity Company after a successful career path. I possess over a quarter-century of experience in operational management and field services for the guests of Allah from various countries worldwide, including Algeria, Oman, Egypt, Sudan, Chad, Mauritania, Djibouti, and the Comoros.\n\nI hold a Diploma in Hajj and Umrah Services Management, with a massive record of advanced training courses in strategic planning, conflict management, guest experience, and effective communication. To enhance the quality of services provided, I rely on multi-cultural communication skills supported by my proficiency in several languages, including Urdu.\n\nI combine institutional precision with the spirit of authentic hospitality, always striving to transform field challenges into exceptional experiences and complete customer satisfaction, which has been crowned with dozens of local and international certificates of appreciation."
+    "sectionTitle": "Profile & Qualifications",
+    "summary": "Early retiree from the Saudi Electricity Company with decades of extensive experience managing field services for pilgrims. Holds an Industrial High School Diploma, a degree from the Saudi Electricity Company Institute, and a one-year Diploma in Hajj and Umrah Services Management (Graduated 1419-1420 AH with a 'Very Good' grade)."
   },
   "Skills": {
     "sectionTitle": "Administrative Skills",
@@ -23,52 +23,38 @@
   "Experience": {
     "sectionTitle": "Professional Experience",
     "jobs": [
-      { "title": "Head of Field Service Office", "description": "For pilgrims from Algeria, Oman, Egypt, Chad, and Sudan.", "date": "1437 AH - 1447 AH" },
-      { "title": "Deputy Head of Field Service Office", "description": "Egyptian pilgrims (Lottery & Associations) - Mauritania and Somalia.", "date": "For five years" },
+      { "title": "Head of Field Service Office", "description": "For pilgrims from Algeria, Oman, Egypt, Chad, and Sudan.", "date": "1437 AH - 1446 AH" },
+      { "title": "Deputy Head of Field Service Office", "description": "For Egyptian pilgrims (Lottery & Associations).", "date": "1433 AH - 1436 AH" },
       { "title": "Member of Tourism Offices for Egyptian Pilgrims", "description": "Providing tourism and hospitality services.", "date": "1428 AH - 1432 AH" },
+      { "title": "Deputy Head of Field Service Group", "description": "For pilgrims from Mauritania and Somalia.", "date": "1425 AH - 1427 AH" },
       { "title": "Field Service Group Member", "description": "For pilgrims from Somalia, Djibouti, Eritrea, Comoros, and Morocco.", "date": "1418 AH - 1424 AH" },
-      { "title": "Saudi Electricity Company", "description": "Employed at the Makkah Al-Mukarramah branch.", "date": "2000/10/19 - 2018/01/01" }
+      { "title": "Saudi Electricity Company", "description": "Employed at the Makkah Al-Mukarramah branch.", "date": "Oct 19, 2000 - Jan 1, 2018" }
     ]
   },
   "Certificates": {
     "sectionTitle": "Courses & Certificates",
     "tabs": { "internal": "Internal Courses", "external": "External Courses", "appreciation": "Appreciations" },
     "internalCourses": [
+      "Welcome, Health & Crowd Control Course (1446 AH)",
       "Operational Plan Course - Ministry of Hajj & Umrah (1440 AH)",
       "Admin Planning, Follow-up & Plan Development (1437 AH)",
       "The Art of Dealing with Subordinates (1435 AH)",
       "Control Standards for Monitoring Committees (1434 AH)",
       "Distinctive Services & Excellence in Pilgrim Service (1425 AH)",
-      "Excellence in Pilgrim Service - Human Resources Co. (1425 AH)",
-      "Hajj Services Development (1421 AH)",
-      "Welcome, Health & Crowd Control Course (1446 AH)"
+      "Safety Supervisors Course with Civil Defense (1424 AH)",
+      "Hajj Services Development (1421 AH) & Emergency Operations (1419 AH)"
     ],
     "externalCourses": [
-      "Personal Productivity & Time Management (Tourism Pioneers 2024)",
-      "Inspiration in Positive Change (Tourism Pioneers 2024)",
-      "Mastering Guest & Customer Experience (Tourism Pioneers 2024)",
-      "Conflict & Encounter Management (Tourism Pioneers 2023)",
-      "Turning Challenges into Customer Satisfaction (Tourism Pioneers 2023)",
+      "Tourism Pioneers Program 2023-2024: Courses in Productivity, Inspiration, Guest Experience, and Conflict Management.",
       "Home Agriculture - Taif University (2021)",
-      "Event Management (BACT) (2019)",
+      "Event Management (BACT) & Visitor Interaction Skills (2019)",
       "Effective Communication (DISC Methodology) (2018)",
-      "Signature Analysis & Trainer Skills (Makkah Chamber 2016)",
-      "Human Error Management (2015)",
-      "Defensive Driving - Saudi Electricity Co. (2014)",
-      "The 7 Habits of Highly Effective People (2014)",
-      "Customer Interaction Skills (2013)",
-      "Effective Communication Skills (2013)",
-      "Psychological Concepts in Family Relations (2012)",
-      "Creative Thinking Course (2011)",
-      "Front-line Development Course (2011)",
-      "Corporate Correspondence Course (2010)",
-      "Executive Secretarial & Office Management (2009)",
-      "Microsoft Basic Excel Course (2008)",
-      "Team Building Course (2008)",
-      "Internet Course - Al-Alameya Institute (2006)",
-      "Skills of Dealing with Others (2004)",
-      "Cable Technology - Jeddah Tech College (1423 AH)",
-      "Data Entry & Word Processing (1415 AH)"
+      "Signature Analysis, Trainer Skills & Subconscious Control (2016)",
+      "Human Error Management (2015), 7 Habits & Defensive Driving (2014)",
+      "Customer Service Skills & Effective Communication (2013)",
+      "Psychological Concepts in Family Relations & Creative Thinking (2011-2012)",
+      "Executive Secretarial, Correspondence & Team Building (2008-2010)",
+      "Various courses in Computer Skills, Internet, Cable Tech & Data Entry"
     ],
     "appreciations": [
       "Certificate of Appreciation from the Chad Hajj Mission (1446 AH)",
@@ -84,15 +70,10 @@
   "Contact": {
     "sectionTitle": "Contact Me",
     "location": "Makkah Al-Mukarramah - Al-Shara'i, Plan 1",
-    "phone": "0505684505",
+    "phone": "+966 50 568 4505",
     "email": "feoozee@hotmail.com"
   },
   "Footer": {
-    "contactUs": "Contact Us",
-    "followUs": "Follow Us",
-    "quickLinks": "Quick Links",
-    "rights": "All Rights Reserved to @ BANDAR HASANIN",
-    "designBy": "Designed & Developed by",
-    "locationLabel": "Location"
+    "rights": "All rights reserved © 2026 | Designed with visual identity inspired by Rehlat & Manafea Tourism Company"
   }
 }
