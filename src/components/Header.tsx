@@ -54,12 +54,12 @@ export default function Header() {
         </div>
 
         {/* Name and Title with Correct Animation Classes */}
-        <div className="space-y-4 max-w-3xl">
-          <h1 className="text-4xl md:text-6xl font-black tracking-tight drop-shadow-lg name-animate">
+        <div className="space-y-3 md:space-y-4 max-w-3xl px-4">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-black tracking-tight drop-shadow-lg name-animate">
             {t('name')}
           </h1>
-          <div className="h-1.5 w-24 bg-accent mx-auto rounded-full name-animate" style={{ animationDelay: '0.6s' }} />
-          <p className="text-xl md:text-2xl font-medium text-white/90 leading-relaxed drop-shadow-md title-animate">
+          <div className="h-1 w-16 md:h-1.5 md:w-24 bg-accent mx-auto rounded-full name-animate" style={{ animationDelay: '0.6s' }} />
+          <p className="text-lg sm:text-xl md:text-2xl font-medium text-white/90 leading-relaxed drop-shadow-md title-animate px-2">
             {t('title')}
           </p>
         </div>

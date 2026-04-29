@@ -140,7 +140,7 @@ export default function CertificatesSection() {
               
               {/* View Indicator */}
               {hasUrl && (
-                <div className="flex items-center gap-1.5 text-accent opacity-0 group-hover:opacity-100 transition-all transform translate-x-2 group-hover:translate-x-0">
+                <div className="flex items-center gap-1 text-accent md:opacity-0 md:group-hover:opacity-100 transition-all transform md:translate-x-2 md:group-hover:translate-x-0 whitespace-nowrap">
                   <span className="text-xs font-bold">{t('view')}</span>
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />

@@ -96,7 +96,7 @@ export default function Footer() {
         </div>
 
         {/* Footer Bottom Line */}
-        <div className="mt-12 pt-6 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="mt-12 pt-6 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-right">
           <p className="text-sm font-bold text-white/60">{foot('rights')}</p>
           <p className="text-sm font-medium text-white/40">
             {foot('designBy')} <span className="text-accent/80 font-black">@ ADHAM BUGIS</span>

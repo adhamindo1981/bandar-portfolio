@@ -61,28 +61,28 @@ export default function ExperienceSection() {
         </div>
       </div>
 
-      <div className="relative group px-2 md:px-16">
+      <div className="relative group px-0 md:px-16">
         {/* Navigation Buttons */}
         <button 
           onClick={prevSlide}
-          className="absolute left-0 top-1/2 -translate-y-1/2 z-10 p-3 bg-white/10 backdrop-blur-lg border border-white/10 rounded-full shadow-xl text-white hover:bg-accent hover:text-primary transition-all duration-300 opacity-0 group-hover:opacity-100 -translate-x-2 md:translate-x-0"
+          className="absolute left-2 md:left-0 top-1/2 -translate-y-1/2 z-10 p-2 md:p-3 bg-white/10 backdrop-blur-lg border border-white/10 rounded-full shadow-xl text-white hover:bg-accent hover:text-primary transition-all duration-300 opacity-100 md:opacity-0 md:group-hover:opacity-100"
         >
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg className="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
           </svg>
         </button>
 
         <button 
           onClick={nextSlide}
-          className="absolute right-0 top-1/2 -translate-y-1/2 z-10 p-3 bg-white/10 backdrop-blur-lg border border-white/10 rounded-full shadow-xl text-white hover:bg-accent hover:text-primary transition-all duration-300 opacity-0 group-hover:opacity-100 translate-x-2 md:translate-x-0"
+          className="absolute right-2 md:right-0 top-1/2 -translate-y-1/2 z-10 p-2 md:p-3 bg-white/10 backdrop-blur-lg border border-white/10 rounded-full shadow-xl text-white hover:bg-accent hover:text-primary transition-all duration-300 opacity-100 md:opacity-0 md:group-hover:opacity-100"
         >
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg className="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
           </svg>
         </button>
 
         {/* Carousel Container */}
-        <div className="overflow-hidden rounded-3xl bg-white/5 border border-white/10 backdrop-blur-sm min-h-[300px] md:min-h-[260px] flex items-center shadow-inner">
+        <div className="overflow-hidden rounded-2xl md:rounded-3xl bg-white/5 border border-white/10 backdrop-blur-sm min-h-[350px] md:min-h-[260px] flex items-center shadow-inner">
           <div 
             className="flex transition-transform duration-1000 cubic-bezier(0.4, 0, 0.2, 1) h-full"
             style={{ transform: `translateX(${currentIndex * 100}%)` }}
@@ -90,7 +90,7 @@ export default function ExperienceSection() {
             {jobs.map((job, index) => (
               <div 
                 key={index} 
-                className="w-full flex-shrink-0 p-8 md:p-12 flex flex-col justify-center"
+                className="w-full flex-shrink-0 p-5 sm:p-8 md:p-12 flex flex-col justify-center"
               >
                 {/* Date Badge - Now at the top for maximum visibility */}
                 <div className="mb-4">
@@ -100,7 +100,7 @@ export default function ExperienceSection() {
                 </div>
 
                 <div className="mb-6">
-                  <h3 className="text-2xl md:text-4xl font-black text-white leading-tight">
+                  <h3 className="text-xl sm:text-2xl md:text-4xl font-black text-white leading-tight break-words">
                     {job.title}
                   </h3>
                 </div>
