@@ -1,6 +1,7 @@
 {
   "name": "cv-app",
   "version": "0.1.0",
+  "//": "Triggering fresh build for mobile fixes",
   "private": true,
   "scripts": {
     "dev": "next dev",
