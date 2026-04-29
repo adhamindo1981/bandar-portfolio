@@ -100,7 +100,7 @@ export default function ExperienceSection() {
                 </div>
 
                 <div className="mb-6">
-                  <h3 className="text-xl sm:text-2xl md:text-4xl font-black text-white leading-tight break-words">
+                  <h3 className="text-xl sm:text-2xl md:text-4xl font-black text-white leading-tight whitespace-normal break-words w-full">
                     {job.title}
                   </h3>
                 </div>
