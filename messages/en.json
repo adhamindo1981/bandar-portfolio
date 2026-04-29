@@ -1,0 +1,99 @@
+{
+  "Header": {
+    "name": "Bandar Fayez Saeed Hassanin",
+    "title": "Hajj, Umrah & Tourism Hospitality Services Management"
+  },
+  "Navigation": {
+    "about": "About",
+    "experience": "Experience",
+    "certificates": "Certificates",
+    "contact": "Contact"
+  },
+  "Profile": {
+    "sectionTitle": "Profile & Qualifications",
+    "summary": "Early retiree from the Saudi Electricity Company with decades of extensive experience managing field services for pilgrims. Holds an Industrial High School Diploma, a degree from the Saudi Electricity Company Institute, and a one-year Diploma in Hajj and Umrah Services Management (Graduated 1419-1420 AH with a 'Very Good' grade)."
+  },
+  "Skills": {
+    "sectionTitle": "Administrative Skills",
+    "timeManagement": "Time Management",
+    "computerSkills": "Computer & Internet Proficiency",
+    "customerService": "Customer Service",
+    "conflictManagement": "Conflict & Encounter Management"
+  },
+  "Experience": {
+    "sectionTitle": "Professional Experience",
+    "jobs": [
+      { "title": "Head of Field Service Office", "description": "For pilgrims from Algeria, Oman, Egypt, Chad, and Sudan.", "date": "1437 AH - 1446 AH" },
+      { "title": "Deputy Head of Field Service Office", "description": "For Egyptian pilgrims (Lottery & Associations).", "date": "1433 AH - 1436 AH" },
+      { "title": "Member of Tourism Offices for Egyptian Pilgrims", "description": "Providing tourism and hospitality services.", "date": "1428 AH - 1432 AH" },
+      { "title": "Deputy Head of Field Service Group", "description": "For pilgrims from Mauritania and Somalia.", "date": "1425 AH - 1427 AH" },
+      { "title": "Field Service Group Member", "description": "For pilgrims from Somalia, Djibouti, Eritrea, Comoros, and Morocco.", "date": "1418 AH - 1424 AH" },
+      { "title": "Saudi Electricity Company", "description": "Employed at the Makkah Al-Mukarramah branch.", "date": "2000/10/19 - 2018/01/01" }
+    ]
+  },
+  "Certificates": {
+    "sectionTitle": "Courses & Certificates",
+    "tabs": { "internal": "Internal Courses", "external": "External Courses", "appreciation": "Appreciations" },
+    "internalCourses": [
+      "Operational Plan Course - Ministry of Hajj & Umrah (1440 AH)",
+      "Admin Planning, Follow-up & Plan Development (1437 AH)",
+      "The Art of Dealing with Subordinates (1435 AH)",
+      "Control Standards for Monitoring Committees (1434 AH)",
+      "Distinctive Services & Excellence in Pilgrim Service (1425 AH)",
+      "Excellence in Pilgrim Service - Human Resources Co. (1425 AH)",
+      "Hajj Services Development (1421 AH)",
+      "Welcome, Health & Crowd Control Course (1446 AH)"
+    ],
+    "externalCourses": [
+      "Personal Productivity & Time Management (Tourism Pioneers 2024)",
+      "Inspiration in Positive Change (Tourism Pioneers 2024)",
+      "Mastering Guest & Customer Experience (Tourism Pioneers 2024)",
+      "Conflict & Encounter Management (Tourism Pioneers 2023)",
+      "Turning Challenges into Customer Satisfaction (Tourism Pioneers 2023)",
+      "Home Agriculture - Taif University (2021)",
+      "Event Management (BACT) (2019)",
+      "Effective Communication (DISC Methodology) (2018)",
+      "Signature Analysis & Trainer Skills (Makkah Chamber 2016)",
+      "Human Error Management (2015)",
+      "Defensive Driving - Saudi Electricity Co. (2014)",
+      "The 7 Habits of Highly Effective People (2014)",
+      "Customer Interaction Skills (2013)",
+      "Effective Communication Skills (2013)",
+      "Psychological Concepts in Family Relations (2012)",
+      "Creative Thinking Course (2011)",
+      "Front-line Development Course (2011)",
+      "Corporate Correspondence Course (2010)",
+      "Executive Secretarial & Office Management (2009)",
+      "Microsoft Basic Excel Course (2008)",
+      "Team Building Course (2008)",
+      "Internet Course - Al-Alameya Institute (2006)",
+      "Skills of Dealing with Others (2004)",
+      "Cable Technology - Jeddah Tech College (1423 AH)",
+      "Data Entry & Word Processing (1415 AH)"
+    ],
+    "appreciations": [
+      "Certificate of Appreciation from the Chad Hajj Mission (1446 AH)",
+      "Certificate of Appreciation from the CEO of Rihlat & Manafi (1445 AH)",
+      "Certificate of Appreciation from the Oman Hajj Mission",
+      "Appreciation from Egyptian Ministry of Interior & Group 27 (1434 AH)",
+      "Excellence & Innovation Awards from Saudi Electricity Co. (2008, 2013)",
+      "Appreciation from the Consul General of Mauritania (1425, 1426 AH)",
+      "Appreciation from the Eritrean Hajj Mission & Group 83 (1420 AH)",
+      "Appreciation from the Foundation of Arab Pilgrims (1418, 1419 AH)"
+    ]
+  },
+  "Contact": {
+    "sectionTitle": "Contact Me",
+    "location": "Makkah Al-Mukarramah - Al-Shara'i, Plan 1",
+    "phone": "0505684505",
+    "email": "feoozee@hotmail.com"
+  },
+  "Footer": {
+    "contactUs": "Contact Us",
+    "followUs": "Follow Us",
+    "quickLinks": "Quick Links",
+    "rights": "All Rights Reserved to @ BANDAR HASANIN",
+    "designBy": "Designed & Developed by",
+    "locationLabel": "Location"
+  }
+}

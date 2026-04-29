@@ -1,26 +1,71 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --font-tajawal: var(--font-tajawal);
+  --color-primary: #1a4d2e;
+  --color-secondary: #4f6f52;
+  --color-accent: #e8c872;
+  --color-bg-light: #f5f5f5;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+@custom-variant dark (&:where(.dark, .dark *));
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-bg-light);
+  color: var(--color-secondary);
+  font-family: var(--font-tajawal), sans-serif;
+  /* Premium Arabesque Islamic Pattern */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cg fill='none' stroke='%231a4d2e' stroke-opacity='0.08' stroke-width='0.5'%3E%3Cpath d='M60 0 L75 45 L120 60 L75 75 L60 120 L45 75 L0 60 L45 45 Z'/%3E%3Ccircle cx='60' cy='60' r='15'/%3E%3Cpath d='M0 0 L120 120 M120 0 L0 120'/%3E%3Cpath d='M60 0 V120 M0 60 H120'/%3E%3Crect x='30' y='30' width='60' height='60' transform='rotate(45 60 60)'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+}
+
+.container-custom {
+  @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12;
+}
+
+.section-card {
+  @apply bg-white rounded-3xl shadow-xl shadow-gray-200/50 p-8 mb-8 border border-primary/5 transition-all duration-300 ease-out hover:-translate-y-1.5 hover:shadow-2xl hover:shadow-primary/10 hover:border-primary/20 relative overflow-hidden;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill='%231a4d2e' fill-opacity='0.05'%3E%3Cpath d='M50 0 L60 40 L100 50 L60 60 L50 100 L40 60 L0 50 L40 40 Z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Islamic pattern for dark backgrounds (Header/Footer) - Increased visibility */
+.islamic-pattern-dark {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='0.1' stroke-width='0.5'%3E%3Cpath d='M60 0 L75 45 L120 60 L75 75 L60 120 L45 75 L0 60 L45 45 Z'/%3E%3Ccircle cx='60' cy='60' r='15'/%3E%3Crect x='30' y='30' width='60' height='60' transform='rotate(45 60 60)'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.heading-2 {
+  @apply text-3xl font-black text-primary mb-8 flex items-center gap-3;
+}
+
+/* --- Entrance Animations --- */
+@keyframes elasticScale {
+  0% { transform: scale(0.8); opacity: 0; }
+  70% { transform: scale(1.05); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes slideUpFade {
+  0% { transform: translateY(30px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes pureFade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.avatar-animate {
+  animation: elasticScale 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+
+.name-animate {
+  opacity: 0;
+  animation: slideUpFade 0.8s ease-out forwards;
+  animation-delay: 0.4s;
+}
+
+.title-animate {
+  opacity: 0;
+  animation: pureFade 1s ease-in-out forwards;
+  animation-delay: 0.8s;
 }
