@@ -18,13 +18,19 @@ export default function CertificateModal({ isOpen, onClose, imageUrl, title }: C
     if (isOpen) {
       setIsMounted(true);
       setRotation(0);
-      setScale(1); // Reset zoom when opening
+      setScale(1); 
       document.body.style.overflow = 'hidden';
+      document.body.style.paddingRight = '0px'; // Prevent layout shift
     } else {
       const timer = setTimeout(() => setIsMounted(false), 300);
-      document.body.style.overflow = 'unset';
+      document.body.style.overflow = '';
       return () => clearTimeout(timer);
     }
+
+    // Critical: Reset scroll when component is unmounted
+    return () => {
+      document.body.style.overflow = '';
+    };
   }, [isOpen]);
 
   const rotate = () => {
