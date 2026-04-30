@@ -23,12 +23,12 @@ export default function Footer() {
       ></div>
 
       <div className="container-custom relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-right items-start">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-right items-center md:items-start">
           
           {/* Column 1: Contact & Social Media */}
           <div className="flex flex-col gap-5">
             <div className="flex flex-col gap-3">
-              <h4 className="text-accent text-lg font-black border-b border-accent/30 pb-1 w-fit ml-auto">
+              <h4 className="text-accent text-lg font-black border-b border-accent/30 pb-1 w-fit mx-auto md:ml-auto md:mr-0">
                 {t('Contact.sectionTitle')}
               </h4>
               
@@ -56,10 +56,10 @@ export default function Footer() {
             </div>
 
             <div className="flex flex-col gap-3 mt-2">
-              <h4 className="text-accent text-lg font-black border-b border-accent/30 pb-1 w-fit ml-auto">
+              <h4 className="text-accent text-lg font-black border-b border-accent/30 pb-1 w-fit mx-auto md:ml-auto md:mr-0">
                 {t('Footer.followUs')}
               </h4>
-              <div className="flex gap-4 justify-end">
+              <div className="flex gap-4 justify-center md:justify-end">
                 <a href="https://www.tiktok.com/@b.hasanin" target="_blank" rel="noopener noreferrer" className="w-11 h-11 bg-white/10 rounded-full flex items-center justify-center text-white/50 hover:text-white hover:bg-black transition-all shadow-md border border-white/5 group">
                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 448 512"><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg>
                 </a>
@@ -78,7 +78,7 @@ export default function Footer() {
 
           {/* Column 2: Quick Links */}
           <div className="flex flex-col gap-5">
-            <h4 className="text-accent text-lg font-black border-b border-accent/30 pb-1 w-fit ml-auto">
+            <h4 className="text-accent text-lg font-black border-b border-accent/30 pb-1 w-fit mx-auto md:ml-auto md:mr-0">
               {t('Footer.quickLinks')}
             </h4>
             <nav className="flex flex-col gap-3">

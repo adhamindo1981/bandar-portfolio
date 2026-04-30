@@ -12,7 +12,7 @@ const colors = {
 };
 
 /**
- * MilestoneImage Sub-component - Remains on TOP of everything
+ * MilestoneImage Sub-component - Optimized for Responsiveness
  */
 function MilestoneImage({ m, scrollYProgress }: { m: any, scrollYProgress: any }) {
   const opacity = useTransform(scrollYProgress, [m.revealStart, m.revealEnd], [0, 1]);
@@ -22,13 +22,13 @@ function MilestoneImage({ m, scrollYProgress }: { m: any, scrollYProgress: any }
     <motion.div
       style={{ 
         top: m.top, 
-        [m.side === 'L' ? 'left' : 'right']: '2%',
+        [m.side === 'L' ? 'left' : 'right']: '1%',
         opacity,
         scale
       }}
-      className="absolute flex flex-col items-center group pointer-events-auto z-[200]" // Above Footer/Header
+      className="absolute flex flex-col items-center group pointer-events-auto z-[200]"
     >
-      <div className="relative w-28 h-28 md:w-44 md:h-44 rounded-full overflow-hidden border-4 border-accent shadow-2xl transition-all duration-500 hover:scale-110">
+      <div className="relative w-20 h-20 md:w-44 md:h-44 rounded-full overflow-hidden border-4 border-accent shadow-2xl transition-all duration-500 hover:scale-110">
          <Image 
            src={m.src} 
            alt="Journey Milestone" 
@@ -66,7 +66,7 @@ export default function VisualJourney() {
   return (
     <div ref={containerRef} className="absolute inset-0 pointer-events-none select-none">
       
-      {/* 1. The Path Layer - Backstage (z-0) - Passes behind Header and Footer */}
+      {/* 1. The Path Layer - Backstage */}
       <div className="absolute inset-0 z-0">
         <svg
           className="absolute top-0 left-0 w-full h-full"
@@ -103,7 +103,7 @@ export default function VisualJourney() {
         </svg>
       </div>
 
-      {/* 2. The Images Layer - Foreground (z-[200]) - Above everything */}
+      {/* 2. The Images Layer */}
       <div className="absolute inset-0">
         {milestones.map((m) => (
           <MilestoneImage key={m.id} m={m} scrollYProgress={scrollYProgress} />
