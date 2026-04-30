@@ -3,7 +3,7 @@
 @theme {
   --color-primary: #1A5340;
   --color-secondary: #000000;
-  --color-accent: #2E8B57;
+  --color-accent: #C5A059;
   --color-bg-light: #F9F9FA;
   
   --font-tajawal: var(--font-tajawal), ui-sans-serif, system-ui, sans-serif;
@@ -12,6 +12,7 @@
 body {
   background-color: var(--color-bg-light);
   color: var(--color-secondary);
+  /* Subtle geometric pattern background */
   background-image: url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M30 0l30 30-30 30L0 30z" fill="%231A5340" fill-opacity="0.03" fill-rule="evenodd"/%3E%3C/svg%3E');
 }
 

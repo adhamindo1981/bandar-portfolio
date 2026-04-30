@@ -12,7 +12,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'dso2.raed.net',
+        hostname: '*.raed.net',
         port: '', 
         pathname: '/**',
       },
