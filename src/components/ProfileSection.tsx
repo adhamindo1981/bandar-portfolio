@@ -4,13 +4,12 @@ import { useTranslations } from 'next-intl';
 
 export default function ProfileSection() {
   const t = useTranslations('Profile');
-
   return (
-    <section id="about" className="section-card">
-      <h2 className="text-3xl font-black mb-6 border-r-4 border-primary pr-4">{t('sectionTitle')}</h2>
-      <p className="text-xl leading-relaxed text-gray-700 font-medium">
-        {t('summary')}
-      </p>
+    <section id="about" className="section-card mt-8 md:mt-12">
+      <div className="grid gap-8 md:grid-cols-[.65fr_1fr] md:gap-16">
+        <div><p className="floating-label mb-3">Profile</p><h2 className="heading-2">{t('sectionTitle')}</h2></div>
+        <p className="whitespace-pre-line text-lg font-bold leading-[2] text-muted md:text-xl">{t('summary')}</p>
+      </div>
     </section>
   );
 }
